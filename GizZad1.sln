@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GizCore", "GizCore\GizCore.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GizZad1Wpf", "GizZad1Wpf\GizZad1Wpf.csproj", "{970C2AB9-325A-4FC3-B461-A65E2707C045}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGraphControl", "..\..\..\..\Desktop\automatic-graph-layout-master\GraphLayout\tools\WpfGraphControl\WpfGraphControl.csproj", "{FCE1D24E-CC6B-47BC-9CE4-427E5D56B71E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGraphControl", "WpfGraphControl\WpfGraphControl.csproj", "{FCE1D24E-CC6B-47BC-9CE4-427E5D56B71E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
