@@ -1,0 +1,26 @@
+﻿<Window x:Class="GizZad1Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GizZad1Wpf"
+        mc:Ignorable="d"
+        Title="GIZ - Zad1 - Kod Prüfera - s10724" Height="840" Width="840">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DockPanel Grid.Row="1" x:Name="GraphDockPanel"/>
+            <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="PruferCodeTextBox" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+            <Button Grid.Column="1" x:Name="GenerateGraphFromPruferCode" Click="GenerateGraphFromPruferCode_Click" Content="Generuj graf" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"/>
+        </Grid>
+
+    </Grid>
+</Window>
